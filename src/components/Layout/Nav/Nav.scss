@@ -1,0 +1,24 @@
+.main-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 100%;
+
+    .nav-item {
+        padding: 12px;
+        background: #eee;
+        color: #3e86f9;
+        text-decoration: none;
+        border-radius: 6px;
+        
+        &:hover {
+            background: #e1e1e1;
+        }
+        
+        &.active {
+            background: #3e86f9;
+            color: #eee;
+        }
+    }
+}
